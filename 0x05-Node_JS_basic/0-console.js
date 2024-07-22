@@ -1,4 +1,4 @@
-const displayMessage = () =>{
-console.log("Hello NodeJS!");
+const displayMessage = (message) =>{
+console.log(message);
 }
-module.exports = displayMessage();
+module.exports = displayMessage(messaage);
